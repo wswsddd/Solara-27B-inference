@@ -1,0 +1,44 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local evaluation / serving artifacts
+/runs/
+/outputs/
+/logs/
+/checkpoints/
+/models/
+*.log
+*.pid
+*.safetensors
+*.pt
+*.pth
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+*~
+*.swp

@@ -1,0 +1,8 @@
+# In-process unified LM-head server used for the public 72.31 run.
+# Python 3.12. Observed eval environment: torch 2.14.1+cu130, transformers 5.19.0.
+torch==2.14.1
+transformers==5.19.0
+httpx==0.28.1
+huggingface-hub==1.33.0
+safetensors==0.8.0
+tokenizers==0.23.3
